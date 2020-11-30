@@ -1,3 +1,4 @@
+//allikas https://www.youtube.com/watch?v=VlwSz2dXK_8&t=1s
 //muutuja bleep on uus audio element
 var laugh = new Audio();
 //lähtefail

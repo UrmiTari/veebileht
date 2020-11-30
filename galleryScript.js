@@ -1,3 +1,5 @@
+//Allikas: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
 //Võtab html failist id põhjal nupu ja omistab selle muutujale mybutton
 var mybutton = document.getElementById("myBtn");
 
