@@ -1,16 +1,14 @@
 //Võtab html failist id põhjal nupu ja omistab selle muutujale mybutton
 var mybutton = document.getElementById("myBtn");
 
-//kontollime, kui kaguele kasutaja on kerinud.
-// kui kasutaja on alla poole kerinud 20px lehe ülemisest äärest hakkame talle näitama nuppu, 
-//enne seda näha ei ole.
+//kerime sinna kuhu tahame, ehk tagasi üles
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    mybutton.style.display = "block"; //kui me ei ole veel ülemisest äärest 20px kaugusel, siis nuppu ei näidata
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = "none"; //kui oleme kerinud kaugemale kui 20px siis näitame tagasi üles nuppu
   }
 }
 
