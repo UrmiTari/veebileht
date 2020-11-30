@@ -44,10 +44,10 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(9, 9, 10);
-    text-align: center;
-    line-height: 2cm;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(0, 8, 0);
+  text-align: center;
 }
 h3{
     font-family: 'Times New Roman', Times, serif;
