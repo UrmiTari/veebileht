@@ -1,3 +1,25 @@
+#navbar2 {
+  background: linear-gradient(45deg, rgb(5, 5, 5), rgba(0, 0, 255, 0.623));
+  color: rgb(118, 208, 243);
+  border-radius: 30px;
+}
+#navbar2 ul{
+  padding: 0;
+  list-style: none;
+}
+#navbar2 li{
+  display: inline-block;
+}
+#navbar2 ul li a:hover {
+  color: deeppink;
+}
+#navbar2 a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
 .gallery {
     position: relative;
     width: 50%;
