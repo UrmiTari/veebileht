@@ -17,7 +17,7 @@ body{
 }
 .navbar {
   background-color:#333;
-  color: #fff
+  color: #fff;
 }
 .navbar ul{
   padding: 0;
@@ -26,6 +26,10 @@ body{
 .navbar li{
   display: inline-block;
 }
+.navbar ul li a:hover {
+  color: deeppink;
+}
+
 .navbar a{
   color: #fff;
   text-decoration: none;
